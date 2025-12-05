@@ -1,6 +1,3 @@
-// worker/index.js
-// Custom JWT auth + GitHub-backed player template sync + jar proxy
-// Env vars required: GITHUB_TOKEN, GITHUB_OWNER, GITHUB_REPO, JWT_SECRET
 
 const GITHUB_API = 'https://api.github.com';
 const TEMPLATE_FILES = {
